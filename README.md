@@ -9,8 +9,8 @@ Welcome to the GUI workshop! In this session, you'll learn how to build a deskto
 Please ensure you have the following **installed and working** on your computer **before** the session:
 
 1. **GitHub account** – [Sign up here](https://github.com/)
-2. **Homebrew** /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-3. **Python 3+** – [Installtion instructions here](https://docs.python-guide.org/starting/install3/osx/)
+2. **Homebrew** `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+3. **Python 3+** – [Installation instructions here](https://docs.python-guide.org/starting/install3/osx/)
 4. **Git** – `brew install git`
 5. **Qt Creator / Qt Designer** – [Download here (Offline Installers)](https://www.qt.io/offline-installers)
 
@@ -70,6 +70,8 @@ Designing your .ui file
 follow Kaylee's instructions
 edit this bit and put in specifics
 
+To compile your ui file to python
+`pyside6-uic mainwindow.ui -o mainwindow.py`
 ---
 
 ## Part 3 -- **Python code**
