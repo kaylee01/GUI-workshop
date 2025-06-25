@@ -55,7 +55,7 @@ class MainWindow(QMainWindow):
 
     def display_scan(self):
         # Load the NIfTI image
-        img = nib.load("../Scans/s0011/ct.nii.gz")
+        img = nib.load(self.nii_file_path)
         data = img.get_fdata()
         num_slices = data.shape[2]
         # Set slider range if not already set

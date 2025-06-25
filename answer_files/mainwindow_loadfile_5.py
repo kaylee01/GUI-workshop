@@ -56,6 +56,7 @@ class Ui_MainWindow(object):
         self.scan_view.setSizePolicy(sizePolicy)
         self.scan_view.setMinimumSize(QSize(300, 300))
         self.scan_view.setFrameShape(QFrame.Shape.Box)
+        self.scan_view.setAlignment(Qt.AlignmentFlag.AlignCenter)
 
         self.gridLayout.addWidget(self.scan_view, 2, 0, 1, 2)
 
