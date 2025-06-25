@@ -45,6 +45,7 @@ class MainWindow(QMainWindow):
         if file_name:
             self.nii_file_path = file_name
             print(f"Selected file: {file_name}")
+            self.ui.path_text.setPlainText(file_name)  # Display the selected file path
             self.display_scan()  # Automatically display the scan after selection
 
     # def on_display_button_clicked(self):
@@ -101,9 +102,6 @@ class MainWindow(QMainWindow):
     def resizeEvent(self, event):
         super().resizeEvent(event)
         QTimer.singleShot(0, self.update_image)
-
-
-
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)

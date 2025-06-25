@@ -11,7 +11,6 @@ from PySide6.QtGui import QImage, QPixmap, QIcon
 from PySide6.QtCore import Qt, QTimer, QFile, QSize
 from PySide6.QtUiTools import QUiLoader
 
-import numpy as np
 import sys
 
 from answer_files.mainwindow_button_1 import Ui_MainWindow
