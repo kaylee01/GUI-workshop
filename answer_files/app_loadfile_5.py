@@ -24,7 +24,7 @@ class MainWindow(QMainWindow):
         self.ui = Ui_MainWindow()
         self.ui.setupUi(self)
         self.setWindowTitle("Basic Image Viewer")
-        self.setWindowIcon(QIcon("answer_files/favicon.ico"))
+        self.setWindowIcon(QIcon("answer_files/favicon.icns"))
 
         self.original_pixmap = None
         self.nii_file_path = None  # Added this
@@ -106,7 +106,7 @@ class MainWindow(QMainWindow):
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
-    app.setWindowIcon(QIcon("answer_files/favicon.ico"))
+    app.setWindowIcon(QIcon("answer_files/favicon.icns"))
     window = MainWindow()
     window.show()
     sys.exit(app.exec())
