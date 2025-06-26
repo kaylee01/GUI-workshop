@@ -1,1 +1,22 @@
 .DS_Store
+.DS_Store
+answer_files/Basic Image Viewer.spec
+answer_files/build/Basic Image Viewer/Analysis-00.toc
+answer_files/build/Basic Image Viewer/base_library.zip
+answer_files/build/Basic Image Viewer/Basic Image Viewer.pkg
+answer_files/build/Basic Image Viewer/BUNDLE-00.toc
+answer_files/build/Basic Image Viewer/EXE-00.toc
+answer_files/build/Basic Image Viewer/PKG-00.toc
+answer_files/build/Basic Image Viewer/PYZ-00.pyz
+answer_files/build/Basic Image Viewer/PYZ-00.toc
+answer_files/build/Basic Image Viewer/warn-Basic Image Viewer.txt
+answer_files/build/Basic Image Viewer/xref-Basic Image Viewer.html
+answer_files/build/Basic Image Viewer/localpycs/pyimod01_archive.pyc
+answer_files/build/Basic Image Viewer/localpycs/pyimod02_importers.pyc
+answer_files/build/Basic Image Viewer/localpycs/pyimod03_ctypes.pyc
+answer_files/build/Basic Image Viewer/localpycs/struct.pyc
+answer_files/dist/Basic Image Viewer
+answer_files/dist/Basic Image Viewer.app/Contents/Info.plist
+answer_files/dist/Basic Image Viewer.app/Contents/_CodeSignature/CodeResources
+answer_files/dist/Basic Image Viewer.app/Contents/MacOS/Basic Image Viewer
+answer_files/dist/Basic Image Viewer.app/Contents/Resources/favicon.icns
