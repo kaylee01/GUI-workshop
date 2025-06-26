@@ -13,7 +13,7 @@ from PySide6.QtUiTools import QUiLoader
 
 import sys
 
-from answer_files.mainwindow_button_1 import Ui_MainWindow
+from mainwindow import Ui_MainWindow
 
 class MainWindow(QMainWindow):
     def __init__(self):
