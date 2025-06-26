@@ -4,13 +4,13 @@ Welcome to the GUI workshop! In this session, you'll learn how to build a deskto
 
 ---
 
-## ✅ Prerequisites (Before the Workshop)
+## Before the Workshop
 
 Please ensure you have the following **installed and working** on your computer **before** the session:
 
 1. **GitHub account** – [Sign up here](https://github.com/)
-2. **Homebrew** `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
-3. **Python 3+** – [Installation instructions here](https://docs.python-guide.org/starting/install3/osx/)
+2. **Python 3+** – [Installation instructions here](https://docs.python-guide.org/starting/install3/osx/)
+3. **Homebrew** `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 4. **Git** – `brew install git`
 5. **Qt Creator / Qt Designer** – [Download here (Offline Installers)](https://www.qt.io/offline-installers)
 
@@ -18,7 +18,7 @@ Please ensure you have the following **installed and working** on your computer 
 
 ---
 
-## Part 1 - Workshop Setup (Start Here)
+## Workshop Setup
 
 ### Step 1: **Fork this GitHub repository**
 - Go to the top right of this page and click **“Fork”**
@@ -44,38 +44,22 @@ source gui-venv/bin/activate
 gui-venv\Scripts\activate
 ```
 
-### Step 4: **Install the required Python packages
+### Step 4: Install the required Python packages
 ```pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
 ---
 
-## Part 2 - **Designing your UI**
-We’ll be using Qt Designer (inside Qt Creator) to visually build your app’s layout.
+## Workshop
 
-Step-by-Step to Create a UI File:
-1. Open Qt Creator
-2. Go to File > New File or Project
-3. Select Qt > Qt Widgets Designer Form
-4. Choose Main Window, then click Continue
-5. Keep the file name as mainwindow.ui
-6. Save the file inside your cloned repo folder (e.g., gui-workshop/)
-7. When prompted about version control, choose “None”
-8. Click Finish
+Please follow along with Kaylee’s presentation during the workshop. It contains step-by-step instructions.
 
-✅ You’ve now created a .ui file! This is the base of your GUI.
+Presentation: [GUI Workshop Slides](https://docs.google.com/presentation/d/1qVXofIlC3Qt0AH7aOXCUngue-LeBbE73_zVk1BWPoqo/edit?usp=sharing)
 
-Designing your .ui file
-follow Kaylee's instructions
-edit this bit and put in specifics
-
-To compile your ui file to python
+Remember, to compile your .ui file to .py, run:
 `pyside6-uic mainwindow.ui -o mainwindow.py`
+
 ---
-
-## Part 3 -- **Python code**
-TO DO
-
 
 
