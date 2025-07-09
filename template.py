@@ -12,6 +12,7 @@ from PySide6.QtCore import Qt, QTimer, QFile, QSize
 from PySide6.QtUiTools import QUiLoader
 
 import sys
+import numpy as np
 
 from mainwindow import Ui_MainWindow
 
