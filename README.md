@@ -4,21 +4,27 @@ Welcome to the GUI workshop! In this session, you'll learn how to build a deskto
 
 ---
 
-## Before the Workshop
+## Prior Skills
+This workshop requires basic Python knowledge. If you have done an introductory Python unit, you should be able to follow the workshop.
+
+## IMPORTANT: Before the Workshop
 
 Please ensure you have the following **installed and working** on your computer **before** the session:
 
 1. **GitHub account** – [Sign up here](https://github.com/)
 2. **Python 3+** – [Installation instructions here](https://docs.python-guide.org/starting/install3/osx/)
-3. **Homebrew** `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
-4. **Git** – `brew install git`
-5. **Qt Creator / Qt Designer** – [Download here (Offline Installers)](https://www.qt.io/offline-installers)
-
+3. **Qt Creator / Qt Designer** – [Download here (Offline Installers)](https://www.qt.io/offline-installers)
 > 💡 You do **not** need to create a Qt account to use Qt Creator. You can skip login when installing.
+4. **Visual Studio Code** (or another IDE) - [Download here](https://code.visualstudio.com/download)
+
+Optional:
+- **Homebrew** `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+- **Git** – `brew install git`
+
 
 ---
 
-## Workshop Setup
+## Workshop Setup (Optional to complete this before the workshop. We will be going through this during the session)
 
 ### Step 1: **Fork this GitHub repository**
 - Go to the top right of this page and click **“Fork”**
@@ -33,6 +39,8 @@ Open a terminal (or Git Bash) and run:
 git clone https://github.com/YOUR_USERNAME/gui-workshop.git
 cd gui-workshop
 ```
+
+OR click `Download ZIP`
 
 ### Step 3: **Create a Python virtual environment**
 ```
