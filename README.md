@@ -14,7 +14,7 @@ Please ensure you have the following **installed and working** on your computer 
 1. **GitHub account** – [Sign up here](https://github.com/)
 2. **Python 3+** – [Installation instructions here](https://docs.python-guide.org/starting/install3/osx/)
 3. **Qt Creator** – [Download here (Offline Installers)](https://www.qt.io/offline-installers)
-> 💡 You do **not** need to create a Qt account to use Qt Creator. You can skip login when installing.
+> 💡 You may be prompted to create a Qt account to install Qt creator. This is free.
 4. **Visual Studio Code** (or another IDE) - [Download here](https://code.visualstudio.com/download)
 
 Optional:
